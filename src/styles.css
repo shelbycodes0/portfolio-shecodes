@@ -23,9 +23,7 @@ h3 {
   margin: 0;
   padding: 20px;
 }
-h5 {
-  text-align: center;
-}
+
 .buttons {
   display: flex;
   flex-direction: row;
