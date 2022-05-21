@@ -5,16 +5,21 @@
   --accent-color: #601e39;
   --border-radius: 4px;
 }
+body {
+  font-family: "Rubik", sans-serif;
+}
 h1 {
   font-size: 96px;
   text-align: center;
   margin: 0;
   line-height: 1;
+  font-weight: bold;
 }
 h2 {
   font-size: 48px;
   text-align: center;
   margin: 0;
+  font-weight: bold;
 }
 h3 {
   font-size: 24px;
@@ -99,6 +104,7 @@ h4 {
   font-size: 48px;
   padding: 20px;
   margin: 10px;
+  font-weight: bold;
 }
 .gallery {
   max-width: 600px;
@@ -150,7 +156,7 @@ h4 {
 }
 .aboutmesection {
   margin: 0 auto;
-  max-width: 80%;
+  max-width: 100%;
   text-align: center;
 }
 .aboutmeimages {
