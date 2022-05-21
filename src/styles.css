@@ -7,6 +7,7 @@
 }
 body {
   font-family: "Rubik", sans-serif;
+  color: #13212a;
 }
 h1 {
   font-size: 96px;
@@ -14,6 +15,11 @@ h1 {
   margin: 0;
   line-height: 1;
   font-weight: bold;
+}
+.hero {
+  padding-top: 160px;
+  padding-bottom: 190px;
+  background-color: #f9f1f1;
 }
 h2 {
   font-size: 48px;
@@ -34,7 +40,7 @@ h3 {
   flex-direction: row;
   justify-content: center;
 }
-#about {
+/* #about {
   border: 1px solid var(--accent-color);
   border-radius: var(--border-radius);
   padding: 20px 15px;
@@ -45,8 +51,9 @@ h3 {
 #about:hover {
   background-color: var(--accent-color);
   color: white;
-}
-#contact {
+} */
+#contact,
+#about {
   border: none;
   border-radius: var(--border-radius);
   background-color: var(--accent-color);
@@ -56,7 +63,8 @@ h3 {
   margin: 20px;
   box-shadow: rgba(37, 39, 89, 0.2) 0px 8px 8px 0;
 }
-#contact:hover {
+#contact:hover,
+#about:hover {
   color: white;
   background-color: #947481;
 }
