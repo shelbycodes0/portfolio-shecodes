@@ -22,6 +22,9 @@ h1 {
   padding-bottom: 190px;
   background-color: #f9f1f1;
 }
+.bottomLinks {
+  background-color: #f9f1f1;
+}
 h2 {
   font-size: 48px;
   text-align: center;
@@ -36,6 +39,39 @@ h3 {
   padding: 20px;
 }
 
+h5 {
+  font-size: 34px;
+  text-align: center;
+  margin: 0;
+  font-weight: bold;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.contact-list-widescreen {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 20px 190px;
+}
+.contact-list-mobilescreen {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 20px 20px;
+}
+.socials {
+  text-decoration: none;
+  color: #601e39;
+  font-weight: bold;
+  transition: 100ms ease-in-out;
+}
+.socials:hover {
+  font-size: 20px;
+}
 .buttons {
   display: flex;
   flex-direction: row;
