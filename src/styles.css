@@ -31,6 +31,7 @@ h2 {
   text-align: center;
   margin: 0;
   font-family: "Calistoga", cursive;
+  padding-top: 80px;
 }
 h3 {
   font-size: 24px;
@@ -246,4 +247,8 @@ p {
 #gallerylink {
   font-size: 50px;
   color: white;
+}
+.tidbit {
+  font-family: "Calistoga", cursive;
+  font-size: 50px;
 }
