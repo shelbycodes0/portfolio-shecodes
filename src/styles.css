@@ -39,14 +39,7 @@ h4 {
   margin: 10px;
   font-family: "Calistoga", cursive;
 }
-h5 {
-  font-size: 34px;
-  text-align: center;
-  margin: 0;
-  padding-top: 60px;
-  padding-bottom: 40px;
-  font-family: "Calistoga", cursive;
-}
+
 .hero {
   padding-top: 160px;
   padding-bottom: 190px;
@@ -263,4 +256,69 @@ p {
   font-size: 50px;
   opacity: 1;
   color: #13212a;
+}
+
+.description {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.description2 {
+  padding-left: 30px;
+}
+.resume {
+  display: flex;
+  justify-content: center;
+}
+.certificates {
+  display: flex;
+  justify-content: center;
+}
+.certificates img {
+  max-width: 970px;
+  padding-top: 40px;
+  transition: ease-in-out 100ms;
+}
+.certificates img:hover {
+  opacity: 0.8;
+}
+.school {
+  text-align: center;
+  margin-top: 0;
+  padding-top: 0;
+  padding-bottom: 40px;
+}
+h5 {
+  padding-top: 20px;
+  padding-bottom: 0px;
+  font-size: 24px;
+  text-align: center;
+  color: var(--description-color);
+  font-family: "Rubik", sans-serif;
+}
+.resume a {
+  color: var(--accent-color);
+  text-decoration: none;
+  transition: ease-in-out 100ms;
+}
+.resume a:hover {
+  font-weight: bold;
+}
+.workEx {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.linkedInclick {
+  text-align: center;
+}
+#resumetop {
+  text-align: center;
+}
+#resume {
+  text-decoration: none;
+  color: #13212a;
+}
+#resume:hover {
+  color: var(--accent-color);
+  opacity: 0.8;
 }

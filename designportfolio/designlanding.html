@@ -22,12 +22,35 @@
       rel="stylesheet"
     />
     <style>
-      @media (max-width: 500px) {
+      footer {
+        text-align: center;
+      }
+      @media (max-width: 1200px) {
+        h2 {
+          font-size: 50px;
+        }
+        .widescreen {
+          display: none;
+        }
+        .mobileicon {
+          display: block;
+          margin: 0 auto;
+        }
+        .mobiledescription {
+          text-align: center;
+          padding-top: 0;
+          margin-top: 0;
+        }
         h1 {
           font-size: 65px;
         }
         #gallerylink {
           font-size: 20px;
+        }
+      }
+      @media (min-width: 1201px) {
+        .mobilescreen {
+          display: none;
         }
       }
     </style>
@@ -60,6 +83,11 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/about.html#contact-me">Contact Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/resume.html" title="Shelby Resume"
+                >Resume</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/designportfolio/designlanding.html"
@@ -152,6 +180,127 @@
         </a>
       </div>
     </footer>
+    <div class="bottomLinks">
+      <br />
+      <h5>Let's Keep in Touch!</h5>
+
+      <!-- Social media and contact links. Add or remove any networks. -->
+      <ul class="contact-list-widescreen widescreen">
+        <li>
+          <a href="mailto:shelbycodes@gmail.com" class="socials">
+            <img
+              src="/src/icon/letter.png"
+              width="40px"
+              alt="envelope"
+            /><br />Email</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://github.com/shelbycodes0"
+            target="_blank"
+            class="socials"
+            ><img
+              src="/src/icon/github.png"
+              width="35px"
+              alt="github"
+            /><br />GitHub</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://open.spotify.com/playlist/4prdpn3C4h9NJ5ZjEA2G6z?si=1d456b8b532749c7"
+            target="_blank"
+            class="socials"
+            ><img
+              src="/src/icon/spotify.png"
+              width="35px"
+              alt="spotify"
+            /><br />Spotify</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/shelby-courtney"
+            target="_blank"
+            class="socials"
+            ><img
+              src="/src/icon/linkedin.png"
+              width="35px"
+              alt="linkedIn"
+            /><br />LinkedIn</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.instagram.com/shelbycodes/"
+            target="_blank"
+            class="socials"
+            title="Instagram"
+            ><img
+              src="/src/icon/insta.png"
+              width="35px"
+              alt="instagram"
+            /><br />@shelbycodes</a
+          >
+        </li>
+      </ul>
+
+      <ul class="contact-list-mobilescreen mobilescreen">
+        <li>
+          <a
+            href="mailto:shelbycodes@gmail.com"
+            class="socials"
+            title="Shelby Courtney Email"
+          >
+            <img src="/src/icon/letter.png" width="40px" alt="envelope"
+          /></a>
+        </li>
+        <li>
+          <a
+            href="https://github.com/shelbycodes0"
+            target="_blank"
+            class="socials"
+            title="Shelby Courtney GitHub"
+            ><img src="/src/icon/github.png" width="35px" alt="github"
+          /></a>
+        </li>
+        <li>
+          <a
+            href="https://open.spotify.com/playlist/4prdpn3C4h9NJ5ZjEA2G6z?si=1d456b8b532749c7"
+            target="_blank"
+            class="socials"
+            title="Shelby Courtney Spotify"
+            ><img src="/src/icon/spotify.png" width="35px" alt="spotify"
+          /></a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/shelby-courtney"
+            target="_blank"
+            class="socials"
+            title="Shelby Courtney LinkedIn"
+            ><img src="/src/icon/linkedin.png" width="35px" alt="linkedIn"
+          /></a>
+        </li>
+        <li>
+          <a
+            href="https://www.instagram.com/shelbycodes/"
+            target="_blank"
+            class="socials"
+            title="Shelby Courtney Instagram"
+            ><img src="/src/icon/insta.png" width="35px" alt="instagram"
+          /></a>
+        </li>
+      </ul>
+
+      <footer>
+        This site was built by
+        <a href="https://github.com/shelbycodes0">ShelbyCodes</a> 🧩
+      </footer>
+      <br />
+      <br />
+    </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
