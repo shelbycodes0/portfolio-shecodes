@@ -322,3 +322,19 @@ h5 {
   color: var(--accent-color);
   opacity: 0.8;
 }
+#download {
+  border: none;
+  border-radius: var(--border-radius);
+  background-color: var(--accent-color);
+  padding: 20px 15px;
+  margin: 20px;
+  box-shadow: rgba(37, 39, 89, 0.2) 0px 8px 8px 0;
+}
+#download:hover {
+  color: white;
+  background-color: #947481;
+}
+#downloadlink {
+  color: white;
+  text-decoration: none;
+}
