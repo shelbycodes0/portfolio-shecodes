@@ -17,12 +17,9 @@
       crossorigin="anonymous"
     />
     <link href="/src/styles.css" rel="stylesheet" type="text/css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Calistoga&family=Rubik&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Calistoga&family=Rubik&display=swap" rel="stylesheet">
     <style>
         footer {
             text-align: center;
@@ -43,11 +40,15 @@
             padding-top: 0;
             margin-top: 0;
         }
+        .site-title {
+          font-size: 65px;
+        }
       }
       @media (min-width: 1201px) {
         .mobilescreen {
           display: none;
         }
+      
       }
     </style>
     <title>Shelby Courtney - Resume</title>
@@ -94,7 +95,7 @@
     </nav>
     <div class="container" id="resumetop">
       <br /><br />
-      <h1>Resume</h1>
+      <h1 class="site-title">Resume</h1>
       <h3 >Shelby Courtney, Front End Developer</h3>
 
 
@@ -132,7 +133,6 @@
         <img src="/src/img/Basics Cert.png" height="200px" class="mobileicon" alt="SheCodes Basics Certificate" /> 
         <h5>Introduction to Coding</h5>
         <p class="school">SheCodes, April 2022</p>
-        <img src="/src/icon/books.png" height="70px" class="mobileicon" alt="open book"/> 
         </div>
         <img src="/src/icon/books.png" height="70px" class="resumeIcon" alt="open book"/>
         <h5>BA Fashion Merchandising</h5>
@@ -243,7 +243,7 @@
                   </p>
                   </div>
                   <br /><br /><br />
-                  <button id="download"><a href="/src/ShelbyCourtneyResume.pdf" id="downloadlink" download>Download Resume</a></button>
+                  <a href="/src/ShelbyCourtneyResume.pdf" class="btn-main" id="downloadlink" download>Download Resume</a>
  <h2 id="contact-me">
           <img src="/src/icon/letter.png" width="60px" alt="envelope" /> Contact Me
         </h2>
