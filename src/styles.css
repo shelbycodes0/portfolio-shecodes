@@ -440,3 +440,28 @@ h5 {
     background-position: 20px 0, 20px 0, 20px 0;
   }
 }
+.moreprojects {
+  text-align: center;
+}
+.tarotapp,
+.datenight {
+  max-width: 320px;
+  max-height: 570px;
+}
+.datenightmobile {
+  display: block;
+  margin: 0 auto;
+}
+.pythonlist {
+  text-decoration: none;
+  font-size: 18px;
+  color: #601e39;
+  line-height: 1.7;
+}
+.pythonlist:hover {
+  color: #9f4c6f;
+  font-weight: bold;
+  background-color: #f9f1f1;
+  padding: 10px;
+  border-radius: 5px;
+}
