@@ -13,11 +13,12 @@ body {
   background-color: var(--body-color);
 }
 h1 {
-  font-size: 96px;
+  font-size: 110px;
   text-align: center;
   margin: 0;
   line-height: 1;
   font-family: "Calistoga", cursive;
+  font-weight: bold;
 }
 h2 {
   font-size: 48px;
@@ -44,6 +45,22 @@ h4 {
   padding-top: 160px;
   padding-bottom: 190px;
   background-color: var(--background-color);
+}
+.alien {
+  width: 180px;
+  animation: jumping 5s linear infinite;
+  opacity: 0.98;
+}
+@keyframes jumping {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-100px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 .bottomLinks {
   background-color: var(--background-color);
@@ -398,7 +415,7 @@ h5 {
     background-position: 100% 0;
   }
 }
-.site-title {
+/* .site-title {
   margin: 20px auto 10px;
   font-family: "Bungee Shade", cursive;
   font-size: 122px;
@@ -439,7 +456,7 @@ h5 {
   100% {
     background-position: 20px 0, 20px 0, 20px 0;
   }
-}
+} */
 .moreprojects {
   text-align: center;
 }
